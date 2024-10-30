@@ -1,0 +1,383 @@
+/*
+ @ Connection Setting Section Start
+*/
+
+#wpfooter {
+    position: static;
+    margin-left: 0px !important;
+}
+
+#footer-left {
+    margin-left: 160px !important
+}
+
+.connection_section_class_yrc .form-table tr .titledesc {
+    width: 300px;
+}
+
+.connection_section_class_yrc .button-primary {
+    margin-left: 27px;
+    width: 160px !important;
+    height: 40px;
+}
+
+.connection_section_class_yrc .connection_save_button {
+    margin-left: 15px;
+    width: 190px !important;
+    height: 40px;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+}
+
+.connection_section_class_yrc input[type="text"] {
+    width: 350px;
+    border-radius: 1px;
+    height: 36px !important;
+}
+
+.connection_section_class_yrc label {
+    cursor: default;
+}
+
+.connection_section_class_yrc p.submit {
+    float: right;
+    text-align: left;
+    width: calc(100% - 310px);
+}
+
+.connection_section_class_yrc p.submit > * {
+    line-height: 2.9 !important;
+}
+
+
+/*
+ @ Quote Setting Section Start
+*/
+
+.wp-admin select {
+    height: 36px !important;
+    border-radius: 1px;
+}
+
+.p_mw_ds_location {
+    height: auto !important;
+}
+
+.quote_section_class_yrc label {
+    cursor: default;
+}
+
+.quote_section_class_yrc input[type="text"] {
+    width: 225px;
+    border-radius: 1px;
+    height: 36px !important;
+}
+
+.quote_section_class_yrc input[type="checkbox"] {
+    cursor: default;
+    height: 26px !important;
+    width: 27px !important;
+}
+
+.quote_section_class_yrc input[type="checkbox"]:checked::before {
+    width: 28px;
+    padding-top: 4px;
+}
+
+.quote_section_class_yrc .form-table tr .titledesc {
+    width: 300px;
+}
+
+.quote_section_class_yrc .button-primary {
+    width: 120px !important;
+    margin-left: 336px;
+    height: 36px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+}
+
+.yrc_test_connection {
+    font-size: 13px !important;
+    width: 160px !important;
+    text-align: center;
+}
+
+.yrc_test_connection:hover {
+    background: #008ec2;
+    color: #fff;
+    border-color: #006799;
+}
+
+/*
+ @ User Guide Section
+ */
+.user_guide {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.user_guide p {
+    font-size: 14px;
+}
+
+label[for="wc_settings_yrc_userid"]:after, label[for="wc_settings_yrc_busid"]:after, label[for="wc_settings_yrc_plugin_licence_key"]:after, label[for="wc_settings_yrc_password"]:after, label[for="yrc_origin_zip"]:after, label[for="yrc_origin_city"]:after, label[for="yrc_origin_state"]:after, label[for="yrc_origin_country"]:after, label[for="yrc_dropship_zip"]:after, label[for="yrc_dropship_city"]:after, label[for="yrc_dropship_state"]:after, label[for="yrc_dropship_country"]:after {
+    content: " *";
+    color: red;
+}
+
+.hoveraffect:hover {
+    background: #008ec2 !Important;
+    border-color: #006799 !Important;
+    color: #fff !Important;
+}
+
+.yrcCheckboxClass {
+    cursor: default !important;
+    height: 12px !important;
+    margin: -4px 5px 0 0 !important;
+    width: 12px !important;
+    min-width: 12px !important;
+}
+
+.yrcCheckboxClass:checked:before {
+    margin: -5px 0 0 -6px !important;
+}
+
+.woocommerce_variable_attributes div.data select {
+    width: 100% !important;
+}
+
+.form-row select {
+    height: 35px !important;
+}
+
+.woocommerce_variable_attributes div.data .checkbox {
+    margin-left: 0px !important;
+    margin-right: 10px !important;
+}
+
+.warning-msg {
+    margin: 5px 0 15px !important;
+    border-left-color: #ffb900 !important;
+    background: #fff;
+    border-left: 4px solid #fff;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    padding: 0.1px 12px;
+}
+
+.warning-msg p, .already_exist p, .yrc_warehouse_invalid_input_message p, .yrc_dropship_invalid_input_message p {
+    margin: .5em 0;
+}
+
+.desc_text_style {
+    font-style: normal !important;
+    font-size: 13px;
+}
+
+/* font size quote setting page */
+.en_woo_addons_liftgate_with_auto_residential_style th,
+.yrc_residential th,
+.avaibility_lift_gate th,
+.yrc_liftgate th,
+.yrc_quotes_liftgate_delivery_as_option th,
+.avaibility_auto_residential th {
+    padding: 0px 0 10px 15px;
+    margin-left: 10px !important;
+    font-weight: 400;
+}
+
+.en_woo_addons_liftgate_with_auto_residential_style td,
+.yrc_residential td,
+.avaibility_lift_gate td,
+.yrc_liftgate td,
+.yrc_quotes_liftgate_delivery_as_option td,
+.avaibility_auto_residential td {
+    padding: 0px 0 10px 15px;
+}
+
+.quote_section_class_yrc span {
+    font-style: normal !important;
+}
+
+.quote_section_class_yrc .en_woo_addons_liftgate_with_auto_residential,
+.quote_section_class_yrc .suspend_automatic_detection_of_residential_addresses {
+    cursor: default !important;
+    height: 12px !important;
+    margin: -4px 5px 0 0 !important;
+    width: 12px !important;
+    min-width: 12px !important;
+}
+
+.quote_section_class_yrc .en_woo_addons_liftgate_with_auto_residential:checked:before,
+.quote_section_class_yrc .suspend_automatic_detection_of_residential_addresses:checked:before {
+    margin: -5px 0 0 -6px !important;
+}
+
+._en_hazardous_material span.description {
+    font-size: 13px;
+}
+
+table.display_meta {
+    display: none;
+}
+
+/* Cuttoff Time */
+input#service_yrc_estimates_title {
+    display: none;
+}
+
+tr.yrc_estimates_title th {
+    font-size: 1.2em;
+}
+
+tr.all_shipment_days_yrc_tr th {
+    padding-left: 23px;
+    font-weight: 400;
+}
+
+tr.yrc_shipment_day_tr {
+    display: inline-block;
+}
+
+.quote_section_class_yrc table.form-table tbody {
+    width: 100%;
+    display: block;
+}
+
+tr.all_shipment_days_yrc_tr {
+    display: inline;
+}
+
+tr.all_shipment_days_yrc_tr td {
+    padding-left: 10px;
+}
+
+tr.yrc_shipment_day_tr th {
+    display: none;
+}
+
+.quote_section_class_yrc tr.wc_pervent_proceed_checkout_eniture th {
+    padding-left: 18px;
+}
+
+.yrc_ship_date_offset a {
+    text-decoration: none;
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+    padding-right: 15px;
+    position: relative;
+    left: -130px;
+    top: -2px;
+}
+
+.yrc_estimates_title a {
+    text-decoration: none;
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+    padding-right: 15px;
+    position: relative;
+    left: -130px;
+    top: -2px;
+}
+
+.plan_color {
+    text-decoration: none;
+    color: red;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.plan_color:hover {
+    color: #ff0000;
+}
+
+/* Weight threshold for LTL freight */
+tr.hide_en_weight_threshold_lfq {
+    display: none;
+}
+
+/*Fix estimate options*/
+.quote_section_class_yrc td.forminp.forminp-radio ul li {
+    display: block !important;
+}
+/* fdo va */
+.en-coupon-code-div{
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-left-width: 4px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    margin: 5px 15px 2px;
+    padding: 1px 12px;
+}
+
+.en-coupon-notice{
+    border-left-color: #72aee6;
+}
+
+.en-coupon-success{
+    border-left-color: #00a32a;
+}
+
+.en-coupon-error{
+    border-left-color: #d63638;
+}
+
+.en-coupon-btn-div{
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.en-error-message{
+    color: #dc3232 !important;
+}
+/*fdo va*/
+/* Create two equal columns that floats next to each other */
+.half-column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Clear floats after the columns */
+.parent-column:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.dn {
+    display:none;
+}
+.dnblock {
+    float: none;
+    text-align: center;
+    width: auto;
+    padding-top: 0px;
+}
+.user_guide_fdo {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 70%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+.user_guide_fdo p.submit {
+    display: none;
+}
+#freightdesk_online_id {
+    width: 98%;
+    padding: 3px;
+}
